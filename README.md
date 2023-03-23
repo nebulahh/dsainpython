@@ -5,7 +5,9 @@ I am learning DSA so i will push four answers to this repo weekly. All questions
 ## Language used and site 
 
 **language used:** python because i am trying to learn the language
+
 **site used:** leetcode and neetcode
+
 **other tool:** a book and pen
 
 ## Thought process
