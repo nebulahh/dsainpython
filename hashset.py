@@ -1,3 +1,5 @@
+// this is the design of an hashset 
+
 class MyHashSet:
 
   def __init__(self):
