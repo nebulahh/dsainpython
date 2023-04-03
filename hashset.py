@@ -1,4 +1,4 @@
-// this is the design of an hashset 
+# this is the design of an hashset 
 
 class MyHashSet:
 
