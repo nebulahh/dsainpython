@@ -1,3 +1,4 @@
+# Time complexity: O(1) on average and O(n) worst case
 
 class MyHashMap:
 
