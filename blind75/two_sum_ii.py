@@ -1,3 +1,6 @@
+# Time complexity: O(n)
+# Space Complexity: O(1)
+
 class Solution:
     def twoSum(self, numbers: List[int], target: int) -> List[int]:
       start = 0
