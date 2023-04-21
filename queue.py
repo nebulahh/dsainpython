@@ -9,8 +9,9 @@ class MyCircularQueue:
         self.head = None
         self.tail = None
     def enQueue(self, val: int) -> bool:
-        if self.isFull(): return False
-          newNode = ListNode(val)
+        if self.isFull(): 
+          return False
+        newNode = ListNode(val)
         if self.isEmpty(): 
           self.head = self.tail = newNode
         else:
@@ -25,9 +26,13 @@ class MyCircularQueue:
         self.size -= 1
         return True
     def Front(self) -> int:
-        return -1 if self.isEmpty() else self.head.val
+        return -1 
+        if self.isEmpty()
+        else self.head.val
     def Rear(self) -> int:
-        return -1 if self.isEmpty() else self.tail.val
+        return -1 
+        if self.isEmpty() 
+        else self.tail.val
     def isEmpty(self) -> bool:
         return self.size == 0
     def isFull(self) -> bool:
